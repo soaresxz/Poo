@@ -16,10 +16,10 @@ public class Gerentes extends Funcionarios{
 
     @Override
     public void calcularSalario(){
-        super.calcularSalario();
         double salarioFinal;
         salarioFinal = getSalario() + bonusSalarial;
+        System.out.println("Nome: " + getNome());
         System.out.println("Salário Final: " + salarioFinal);
+        System.out.println(" ");
     }
 } 
-
