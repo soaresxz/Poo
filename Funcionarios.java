@@ -28,5 +28,7 @@ public class Funcionarios {
         salarioFinal = getSalario();
         System.out.println("Nome: " + nome);
         System.out.println("Salário Final: " + salarioFinal);
+        System.out.println(" ");
     }
 }
+
