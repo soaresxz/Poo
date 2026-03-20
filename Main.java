@@ -6,8 +6,7 @@ public class Main {
         Gerentes funcionario2 = new Gerentes("Maria", 4000.00, 1500.00);
         funcionario2.calcularSalario();
 
-        Desenvolvedor funcionario3 = new Desenvolvedor("Carlos", 3000, 10, 50);
+        Desenvolvedor funcionario3 = new Desenvolvedor("Carlos", 3000.00, 10.00, 50.00);
         funcionario3.calcularSalario();
     }
 }
-        
